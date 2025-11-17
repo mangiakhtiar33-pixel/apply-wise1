@@ -23,7 +23,7 @@ function Forgotpassword() {
           <p className='text-sm  text-dark/60 leading-[100%] font-Arial tracking-normal mt-3' >Please enter your email below to reset your password.</p>
           <div className=' mt-7 sm:space-y-6 space-y-4'>
             <Input inputname="Email" placeholder="Enter your Email" value={email} onChange={(e) => setEmail(e.target.value)} />
-          <div className='sm:mt-[60px] mt-9' ><Button name="Submit" onClick={handleSubmit}  backgroundcolor='Secondary' /></div> 
+          <div className='sm:mt-[60px] mt-9' ><Button name="Submit" onClick={handleSubmit}  bg="bg-Secondary" /></div> 
            </div>
         </div>
       </div>

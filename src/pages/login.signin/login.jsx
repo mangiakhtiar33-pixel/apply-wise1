@@ -32,7 +32,7 @@ function Login() {
             <PasswordInput inputname="Password" placeholder="Enter Password here" />
             <PasswordInput inputname="Confirm Password*" placeholder="Enter Password here" />
             <Privacy />
-            <div className='sm:mt-[60px]'><Button name="Continue" backgroundcolor='Secondary' /></div>
+            <div className='sm:mt-[60px]'><Button name="Continue" bg="bg-Secondary" /></div>
             <div className='text-dark flex justify-center sm:my-[50px] my-5'><p className='font-Poppins font-normal text-[14px] leading-[22px] tracking-normal'>Already have an account? <Link to="/signin" className='text-Secondary font-Poppins font-medium text-[14px] leading-[22px] tracking-normal'>Sign in</Link></p></div>
           </div>
         </div>

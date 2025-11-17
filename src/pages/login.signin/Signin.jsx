@@ -21,7 +21,7 @@ function Signin() {
                 <div className='w-1/2 relative'><Link className='text-dark/60 font-Poppins font-normal text-sm leading-[22px] tracking-normal self-center end-0 absolute' to="/forgotpassword">Forgot Password?</Link></div>  
                </div>
           </div>
-          <div className='sm:mt-[60px] mt-3'><Button name="Sign in" backgroundcolor='Secondary'  /></div>
+          <div className='sm:mt-[60px] mt-3'><Button name="Sign in" bg="bg-Secondary"  /></div>
           <div className='text-dark flex justify-center sm:my-[60px] my-3'><p className='font-Poppins font-normal text-[14px] leading-[22px] tracking-normal'>Already have an account? <Link to="/" className='text-Secondary font-Poppins font-medium text-[14px] leading-[22px] tracking-normal'>Sign up</Link></p></div>
         </div>
       </div>
